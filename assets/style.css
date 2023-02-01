@@ -1,8 +1,22 @@
-.header {
-  background-color: blue;
-  color: red;
+html {
+  font-family: papyrus, sans-serif;
 }
 
-#please {
-  color: red;
+header {
+  border: 10px solid black;
+}
+
+li {
+  display: inline;
+  margin-inline: 100px;
+}
+
+section {
+  border: 10px;
+  border-color: blue;
+}
+
+footer {
+  border: 10px;
+  border-color: green;
 }
