@@ -8,12 +8,18 @@
     <title>My Landing Page</title>
   </head>
   <body>
-    <header #fixed-header>
+    <header id="fixed-header">
       <!-- needs to be fixed at the top of the page and display 3 links (1 being contact) inline -->
       <ul>
         <!-- Contact needs to page jump directly to contact form -->
-        <li class="header">Contact</li>
-        <li class="header">About Me</li>
+        <li class="header">
+          <a class="link" href="#Contact-Form">Contact ME</a>
+        </li>
+        <li class="header">
+          <a class="link" href="https://github.com/Twray95/22-mini-project"
+            >My github</a
+          >
+        </li>
         <li class="header">3rd Link</li>
       </ul>
     </header>
@@ -28,12 +34,35 @@
       <figcaption>Aestheticly pleasing mountain view.</figcaption>
     </section>
 
-    <section>
-      <p>
-        Section contains a contact form with inputs for name and email and has a
-        send button
-      </p>
-    </section>
+    <div class="container" id="Contact-Form">
+      <h2>
+        If you would like to contact me then please fill out the form below
+      </h2>
+      <form action="Name">Contact Me</form>
+      <input
+        class="contact"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name.."
+      />
+      <input
+        class="contact"
+        type="text"
+        name="email"
+        id="email"
+        placeholder="Email.."
+      />
+      <textarea
+        class="contact"
+        name="subject"
+        id="subject"
+        cols="30"
+        rows="10"
+        placeholder="Write Something.."
+      ></textarea>
+      <input class="contact" type="submit" value="submit" />
+    </div>
 
     <footer>
       <p>Not sure what to put in the footer but it is required to have one</p>

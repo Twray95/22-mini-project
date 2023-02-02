@@ -4,11 +4,15 @@ html {
 }
 body {
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
 header {
   border: 10px solid #e27d60;
   margin-top: 10px;
   margin: auto;
+  background-color: #41b3a3;
 }
 
 li {
@@ -18,15 +22,14 @@ li {
 }
 
 section {
-  border: 10px;
-  border-color: blue;
   margin: auto;
+  margin-top: 100px;
   text-align: center;
+  color: white;
 }
 
 footer {
-  border: 10px;
-  border-color: green;
+  color: white;
 }
 
 #image {
@@ -36,4 +39,20 @@ footer {
 #fixed-header {
   position: fixed;
   top: 0;
+  right: 50px;
+}
+
+.contact {
+  display: block;
+  margin: auto;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
 }
