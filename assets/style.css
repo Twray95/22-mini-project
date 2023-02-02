@@ -2,9 +2,13 @@ html {
   font-family: papyrus, sans-serif;
   background-color: #41b3a3;
 }
-
+body {
+  position: relative;
+}
 header {
   border: 10px solid #e27d60;
+  margin-top: 10px;
+  margin: auto;
 }
 
 li {
@@ -16,6 +20,8 @@ li {
 section {
   border: 10px;
   border-color: blue;
+  margin: auto;
+  text-align: center;
 }
 
 footer {
@@ -24,5 +30,10 @@ footer {
 }
 
 #image {
-  padding: 100px;
+  padding: 10px;
+}
+
+#fixed-header {
+  position: fixed;
+  top: 0;
 }
